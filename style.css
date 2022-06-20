@@ -1,13 +1,13 @@
 body {
   background-color: rgb(253, 251, 251);
-
+  font-size: 18px;
 }
 
 #cabecalho {
-  /* position: fixed; */
+  position: fixed;
   top: 0;
-  /* border: 4px solid black; */
-  height: 70px;
+  border: 4px solid black;
+  width: 100%;
   margin: 0;
   background-color: green;
 }
@@ -18,31 +18,37 @@ body {
 
 #minha_foto {
   width: 200px;
-  padding: 20px;
-  margin-top: 20px;
+  padding: 30px;
+  margin-top: 65px;
 }
 
 #licoes_a_aprender,
 #licoes_aprendidas {
   display: inline-block;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 a {
   display: block;
+  width: fit-content;
 }
 
-article {
-  width: 40%;
+.lado-esquerdo {
+  width: 30%;
+  display: inline-block;
+  margin-left: 60px;
 }
 
-aside {
+.lado-direito {
   display: inline-block;
   width: 300px;
   border: 4px solid rgb(31, 28, 28);
   background-color: green;
-  position: absolute;
-  left: 320px;
-  top: 160px;
+  color: white;
+  line-height: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+
 }
 
 aside p {
@@ -50,18 +56,32 @@ aside p {
 }
 
 #rodape {
-  /* border: 4px solid black; */
-  margin: 0px;
-  margin-top: 40px;
+  border: 4px solid black;
+  margin-top: 50px;
+  margin-left: 0;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+
 }
 
 #tabela {
-    margin-top: 2em;
-    position: absolute;
-    left: 450px;
-    bottom: 400px;
+  background-color: green;
+  text-align: center;
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  left: 450px;
+  bottom: 500px;
 }
 
-#tabela th, td {
-    border: 4px solid rgb(17, 16, 16);
+#tabela th,
+td {
+  border: 4px solid rgb(17, 16, 16);
+}
+
+.lado-direito {
 }
