@@ -22,10 +22,10 @@ body {
   margin-top: 65px;
 }
 
-#licoes_a_aprender,
+#licoes_a_aprender ,
 #licoes_aprendidas {
   display: inline-block;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: Georgia, Times, serif;
 }
 
 a {
@@ -46,9 +46,7 @@ a {
   background-color: green;
   color: white;
   line-height: 30px;
-  font-weight: bold;
   margin-left: 20px;
-
 }
 
 aside p {
@@ -61,11 +59,9 @@ aside p {
   margin-left: 0;
   background-color: black;
   color: white;
-  font-weight: bold;
   position: absolute;
   bottom: 10px;
   width: 100%;
-
 }
 
 #tabela {
@@ -78,10 +74,7 @@ aside p {
   bottom: 500px;
 }
 
-#tabela th,
+#tabela th ,
 td {
   border: 4px solid rgb(17, 16, 16);
-}
-
-.lado-direito {
 }
