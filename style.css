@@ -22,8 +22,7 @@ body {
   margin-top: 65px;
 }
 
-#licoes_a_aprender , 
-#licoes_aprendidas {
+#licoes_a_aprender , #licoes_aprendidas {
   display: inline-block;
   font-family: Georgia, Times, serif;
 }
@@ -74,7 +73,6 @@ aside p {
   bottom: 500px;
 }
 
-#tabela th , 
-td {
+#tabela th , td {
   border: 4px solid rgb(17, 16, 16);
 }
